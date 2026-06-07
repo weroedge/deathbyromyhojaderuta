@@ -16,13 +16,18 @@ function getSubdirectories(source) {
 }
 
 const folders = getSubdirectories(baseDir);
-// Asegurar que la sección 'Planos' se incluya en el dossier dinámico
-if (fs.existsSync(path.join(baseDir, 'PLANOS.lnk')) && !folders.includes('Planos')) {
+// Asegurar que la sección 'Planos' se incluya y unificar nombres (evitar duplicados PLANOS vs Planos)
+const planosIndex = folders.findIndex(f => f.toLowerCase() === 'planos');
+if (planosIndex !== -1) {
+    folders[planosIndex] = 'Planos'; // Normalizar a 'Planos' para que coincida con hardcodedDetails
+} else if (fs.existsSync(path.join(baseDir, 'PLANOS.lnk'))) {
     folders.push('Planos');
 }
-// Ordenar alfabéticamente para mantener consistencia
-folders.sort((a, b) => a.localeCompare(b, 'es', { sensitivity: 'base' }));
-console.log('Carpetas detectadas en caliente:', folders);
+
+// Eliminar duplicados si los hubiera tras la normalización
+const uniqueFolders = [...new Set(folders)];
+uniqueFolders.sort((a, b) => a.localeCompare(b, 'es', { sensitivity: 'base' }));
+console.log('Carpetas detectadas y unificadas:', uniqueFolders);
 
 // Función utilitaria para parsear Markdown básico a HTML estilizado con tarjetas premium
 function parseMarkdownToHtml(markdown) {
