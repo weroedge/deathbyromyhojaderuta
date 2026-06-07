@@ -1163,6 +1163,112 @@ const htmlTemplate = `<!DOCTYPE html>
         .btn-close-modal:hover {
             background-color: #475569;
         }
+
+        /* ==========================================
+           RESPONSIVE DESIGN (Mobile Friendly)
+           ========================================== */
+        
+        @media (max-width: 1024px) {
+            .layout-container {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 1000;
+                border-right: none;
+                border-bottom: 1px solid var(--border-light);
+                padding: 12px 15px;
+                background-color: #0e1424;
+                gap: 10px;
+            }
+
+            .logo-section {
+                margin-bottom: 10px;
+                flex-direction: row;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .logo-section span {
+                display: none;
+            }
+
+            .nav-menu {
+                flex-direction: row;
+                overflow-x: auto;
+                padding-bottom: 5px;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none;
+            }
+
+            .nav-menu::-webkit-scrollbar {
+                display: none;
+            }
+
+            .nav-item {
+                white-space: nowrap;
+                padding: 8px 14px;
+                font-size: 13px;
+                flex-shrink: 0;
+            }
+
+            .main-content {
+                margin-left: 0;
+                margin-top: 130px;
+                padding: 20px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+            .welcome-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header-bar {
+                margin-bottom: 25px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                margin-top: 120px;
+            }
+            
+            .header-info h1 {
+                font-size: 22px;
+            }
+
+            .welcome-hero {
+                padding: 20px;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .card {
+                padding: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .sidebar {
+                padding: 10px;
+            }
+
+            .logo-section h2 {
+                font-size: 16px;
+            }
+            
+            .main-content {
+                margin-top: 110px;
+            }
+        }
     </style>
 </head>
 <body>
