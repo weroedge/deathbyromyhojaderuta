@@ -362,6 +362,87 @@
         tr.status-green { border-left: 3px solid var(--success); background-color: rgba(46, 204, 113, 0.04); }
         tr.status-orange { border-left: 3px solid var(--warning); background-color: rgba(241, 196, 15, 0.04); }
         tr.status-red { border-left: 3px solid var(--danger); background-color: rgba(231, 76, 60, 0.04); }
+
+        /* ==========================================
+           RESPONSIVE DESIGN (Mobile Friendly)
+           ========================================== */
+        
+        @media (max-width: 1024px) {
+            .layout-container {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+                border-right: none;
+                border-bottom: 1px solid var(--border-light);
+                padding: 20px;
+            }
+
+            .nav-menu {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+                gap: 10px;
+            }
+
+            .main-content {
+                margin-left: 0;
+                padding: 20px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+            .welcome-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header-bar {
+                margin-bottom: 25px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header-info h1 {
+                font-size: 22px;
+            }
+
+            .welcome-hero {
+                padding: 20px;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .card {
+                padding: 16px;
+            }
+
+            .nav-menu {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .nav-item {
+                font-size: 13px;
+                padding: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nav-menu {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar {
+                padding: 15px;
+            }
+
+            .logo-section h2 {
+                font-size: 18px;
+            }
+        }
     </style>
 </head>
 <body>
