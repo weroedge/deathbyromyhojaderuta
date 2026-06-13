@@ -644,12 +644,12 @@ panelsHtml += `
 
                 <div class="faq-item">
                     <div class="faq-trigger" onclick="toggleFaq(this)">¿Cómo funciona el catering y comedor? <span>➕</span></div>
-                    <div class="faq-content">El catering oficial de la producción está gestionado por <strong>Cuchara de Palo</strong>. Se ha habilitado una zona de comedor interior en la planta cero del estadio justo detrás del escenario en la parte este. Los horarios de servicio son de 13:00 a 16:00 (comida) y de 20:00 a 23:00 (cena), accesibles únicamente con ticket el cual, si te aplica, te dará tu responsable de equipo.</div>
+                    <div class="faq-content">El servicio de catering está ubicado en el <strong>primer anillo (planta 1)</strong>, justo detrás del escenario. Estará plenamente habilitado a partir del día 16 de junio. Los horarios son de <strong>14:00 a 16:00</strong> (comida) y de <strong>19:30 a 22:30</strong> (cena). Es imprescindible presentar un ticket físico entregado por tu coordinador directo para acceder.</div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-trigger" onclick="toggleFaq(this)">¿Tengo un espacio donde dejar mis cosas? <span>➕</span></div>
-                    <div class="faq-content">Dirígete a tu responsable de equipo para que te diga dónde está el espacio asignado para dejar tus pertenencias personales.</div>
+                    <div class="faq-content">Pregunta por <strong>Xavi Payán</strong> (encargado de hospitalidad) al llegar al estadio para que, si tienes asignado un espacio para dejar tus pertenencias, te indique su ubicación exacta.</div>
                 </div>
 
                 <div class="faq-item">
@@ -808,6 +808,8 @@ const htmlTemplate = `<!DOCTYPE html>
             margin-left: 320px;
             padding: 40px;
             width: calc(100% - 380px);
+            display: flex;
+            flex-direction: column;
         }
 
         .header-bar {
@@ -861,7 +863,8 @@ const htmlTemplate = `<!DOCTYPE html>
         }
 
         .tab-panel.active {
-            display: block;
+            display: flex;
+            flex-direction: column;
         }
 
         @keyframes fadeIn {

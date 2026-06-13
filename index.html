@@ -108,6 +108,8 @@
             margin-left: 320px;
             padding: 40px;
             width: calc(100% - 380px);
+            display: flex;
+            flex-direction: column;
         }
 
         .header-bar {
@@ -161,7 +163,8 @@
         }
 
         .tab-panel.active {
-            display: block;
+            display: flex;
+            flex-direction: column;
         }
 
         @keyframes fadeIn {
@@ -657,12 +660,12 @@
 
                 <div class="faq-item">
                     <div class="faq-trigger" onclick="toggleFaq(this)">¿Cómo funciona el catering y comedor? <span>➕</span></div>
-                    <div class="faq-content">El catering oficial de la producción está gestionado por <strong>Cuchara de Palo</strong>. Se ha habilitado una zona de comedor interior en la planta cero del estadio justo detrás del escenario en la parte este. Los horarios de servicio son de 13:00 a 16:00 (comida) y de 20:00 a 23:00 (cena), accesibles únicamente con ticket el cual, si te aplica, te dará tu responsable de equipo.</div>
+                    <div class="faq-content">El servicio de catering está ubicado en el <strong>primer anillo (planta 1)</strong>, justo detrás del escenario. Estará plenamente habilitado a partir del día 16 de junio. Los horarios son de <strong>14:00 a 16:00</strong> (comida) y de <strong>19:30 a 22:30</strong> (cena). Es imprescindible presentar un ticket físico entregado por tu coordinador directo para acceder.</div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-trigger" onclick="toggleFaq(this)">¿Tengo un espacio donde dejar mis cosas? <span>➕</span></div>
-                    <div class="faq-content">Dirígete a tu responsable de equipo para que te diga dónde está el espacio asignado para dejar tus pertenencias personales.</div>
+                    <div class="faq-content">Pregunta por <strong>Xavi Payán</strong> (encargado de hospitalidad) al llegar al estadio para que, si tienes asignado un espacio para dejar tus pertenencias, te indique su ubicación exacta.</div>
                 </div>
 
                 <div class="faq-item">
@@ -674,43 +677,130 @@
 
         <!-- TAB: HORARIOS -->
         <div id="tab-horarios" class="tab-panel">
-            
-        <div class="card">
-            <div class="card-title">⏱️ Planificación Horaria de la Producción (Día a Día)</div>
-            <div class="table-responsive">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Fecha (Jornada)</th>
-                            <th>Horario</th>
-                            <th>Operación / Tarea</th>
-                            <th>Proveedor Responsable</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr style="background-color: rgba(56, 189, 248, 0.03);">
-                            <td><strong>15/06/2026 (Día 8)</strong></td>
-                            <td>08:00 - 21:00<br>10:00 - 21:00<br>12:00 - 16:00</td>
-                            <td>Montaje de sonido, luces y pantallas LED de ZETAK.<br>Montaje de cañones pirotécnicos en provocador y frontal.<br>Montaje e ingeniería de la plataforma variable en pasarela.</td>
-                            <td>Fluge Euskadi S.L.<br>Sukubo S.L.<br>Pascualin Estructures</td>
-                        </tr>
-                        <tr style="background-color: rgba(46, 204, 113, 0.08);">
-                            <td><strong>19/06/2026 (Día 12)</strong></td>
-                            <td>20:30 - 22:30<br><strong>22:30 - 01:15</strong></td>
-                            <td>Apertura de puertas de público.<br><strong>EJECUCIÓN DÍA 1 DE CONCIERTO ZETAK (MITOAROA III)</strong></td>
-                            <td>Sureuskadi / Vans & Roll<br><strong>ZETAK / Vans & Roll</strong></td>
-                        </tr>
-                        <tr style="background-color: rgba(46, 204, 113, 0.08);">
-                            <td><strong>20/06/2026 (Día 13)</strong></td>
-                            <td>20:00 - 22:00<br><strong>22:00 - 23:30</strong></td>
-                            <td>Apertura de puertas (Show Principal).<br><strong>EJECUCIÓN DÍA 2 DE CONCIERTO ZETAK (MITOAROA III)</strong></td>
-                            <td>Sureuskadi / Vans & Roll<br><strong>ZETAK / Vans & Roll</strong></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    
+            <div class="card">
+    <div class="card-title">13/06/2026 (Sábado) - Inicio de Operaciones</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>07:50 - 00:00:</strong> Seguridad acceso túnel 24hrs (San Mamés Stadium).</li>
+        <li style="margin-bottom: 8px;"><strong>08:00 - 21:00:</strong> Montaje técnica evento ZETAK (Fluge Euskadi S.L.).</li>
+        <li style="margin-bottom: 8px;"><strong>08:01 - 10:00:</strong> Peritaje estadio (Globaim S.L.).</li>
+        <li style="margin-bottom: 8px;"><strong>08:10 - 10:00:</strong> Entrega Walkies (WRS, S.L.).</li>
+        <li style="margin-bottom: 8px;"><strong>08:11 - 12:00:</strong> Montaje andamio (General de Alquiler de Maquinaria, S.A.).</li>
+        <li style="margin-bottom: 8px;"><strong>10:01 - 13:00:</strong> Entrega extintores (ICEBA S.L.).</li>
+        <li style="margin-bottom: 8px;"><strong>10:20 - 14:00:</strong> Acometidas barras (Pereto Power).</li>
+        <li style="margin-bottom: 8px;"><strong>16:00 - 20:00:</strong> Iluminación Escaleras evacuación (Pereto Power).</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">14/06/2026 (Domingo) - Estructuras</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>08:00 - 21:00:</strong> Montaje técnica evento ZETAK (Fluge Euskadi S.L.).</li>
+        <li style="margin-bottom: 8px;"><strong>08:15 - 16:00:</strong> Montaje provocador (General de Alquiler de Maquinaria, S.A.).</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">15/06/2026 (Lunes) - Montaje Crítico</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>08:00 - 21:00:</strong> Montaje técnica evento ZETAK (Fluge Euskadi S.L.).</li>
+        <li style="margin-bottom: 8px;"><strong>08:04 - 12:00:</strong> Carga/descarga Barras (Polait Events).</li>
+        <li style="margin-bottom: 8px;"><strong>08:00 - 14:00:</strong> Montaje suelo PVC provocador + pasarela REA (Remosa).</li>
+        <li style="margin-bottom: 8px;"><strong>09:00 - 21:00:</strong> Retén de producción (Producción Zetak).</li>
+        <li style="margin-bottom: 8px;"><strong>10:00 - 21:00:</strong> Montaje FX provocador y frontal (Sukubo S.L.).</li>
+        <li style="margin-bottom: 8px;"><strong>10:01 - 12:00:</strong> Rigging variable (Tars Rigging).</li>
+        <li style="margin-bottom: 8px;"><strong>10:05 - 14:00:</strong> Montaje cocina (Cuchara de Palo, S.L.).</li>
+        <li style="margin-bottom: 8px;"><strong>10:10 - 20:00:</strong> Montaje anfiteatro (Escena Zero).</li>
+        <li style="margin-bottom: 8px;"><strong>10:15 - 21:00:</strong> Montaje lásers (Laser Company).</li>
+        <li style="margin-bottom: 8px;"><strong>12:00 - 16:00:</strong> Montaje plataforma variable (Pascualin Estructures, S.L.).</li>
+        <li style="margin-bottom: 8px;"><strong>13:00 - 14:00:</strong> Agua para contrapesos (San Mamés Stadium).</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">16/06/2026 (Martes) - Ajustes y Programación</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>08:04 - 12:00:</strong> Carga/descarga Barras (Polait Events).</li>
+        <li style="margin-bottom: 8px;"><strong>09:00 - 18:00:</strong> Ajustes equipos (Fluge Euskadi S.L.).</li>
+        <li style="margin-bottom: 8px;"><strong>12:00 - 12:00:</strong> Prueba de FX y Pyro (Sukubo S.L.).</li>
+        <li style="margin-bottom: 8px;"><strong>18:00 - 18:00:</strong> Entrega técnica a gira (Fluge Euskadi S.L.).</li>
+        <li style="margin-bottom: 8px;"><strong>18:01 - 21:00:</strong> Ajuste de contenidos pantallas ZETAK (Fluge Euskadi S.L.).</li>
+        <li style="margin-bottom: 8px;"><strong>18:05 - 21:00:</strong> Ajustes de equipos de audio y chequeo líneas (Fluge Euskadi S.L.).</li>
+        <li style="margin-bottom: 8px;"><strong>19:00 - 20:00:</strong> Prueba variable + iluminación pasarela (Fluge Euskadi S.L.).</li>
+        <li style="margin-bottom: 8px;"><strong>21:00 - 05:00:</strong> Programación iluminación (Fluge Euskadi S.L.).</li>
+        <li style="margin-bottom: 8px;"><strong>21:10 - 05:00:</strong> Programación iluminación (ZETAK).</li>
+        <li style="margin-bottom: 8px;"><strong>21:15 - 02:00:</strong> Pruebas FX con iluminación (Sukubo S.L.).</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">17/06/2026 (Miércoles) - Ensayos Técnicos</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>08:04 - 12:00:</strong> Carga/descarga Barras (Polait Events).</li>
+        <li style="margin-bottom: 8px;"><strong>09:00 - 12:00:</strong> Entrega Químicos (Indarlan, S.A.).</li>
+        <li style="margin-bottom: 8px;"><strong>09:10 - 10:00:</strong> Limpieza camerinos (San Mamés Stadium).</li>
+        <li style="margin-bottom: 8px;"><strong>10:00 - 18:00:</strong> Ensayos (ZETAK).</li>
+        <li style="margin-bottom: 8px;"><strong>12:00 - 14:00:</strong> Pruebas generales pyro (Sukubo S.L.).</li>
+        <li style="margin-bottom: 8px;"><strong>17:00 - 20:00:</strong> Chequear líneas y cámaras (Euskal Irrati Telebista).</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">18/06/2026 (Jueves) - Ensayo General</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>08:04 - 12:00:</strong> Carga/descarga Barras (Polait Events).</li>
+        <li style="margin-bottom: 8px;"><strong>09:00 - 12:00:</strong> Montaje antiavalanchas (Sensei Producciones).</li>
+        <li style="margin-bottom: 8px;"><strong>15:00 - 00:00:</strong> Ensayos (ZETAK).</li>
+        <li style="margin-bottom: 8px;"><strong>15:10 - 17:00:</strong> Ajustes de delay de señales (Euskal Irrati Telebista).</li>
+        <li style="margin-bottom: 8px;"><strong>21:00 - 00:00:</strong> Personal A/V marcadores y megafonía (San Mamés Stadium).</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">19/06/2026 (Viernes) - SHOW DÍA 1</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>08:04 - 12:00:</strong> Carga/descarga Barras (Polait Events).</li>
+        <li style="margin-bottom: 8px;"><strong>10:00 - 11:00:</strong> Limpieza de pista (San Mamés Stadium).</li>
+        <li style="margin-bottom: 8px;"><strong>12:00 - 00:00:</strong> Habilitar UCO para shows (San Mamés Stadium).</li>
+        <li style="margin-bottom: 8px;"><strong>20:30 - 22:30:</strong> Puertas (ZETAK).</li>
+        <li style="margin-bottom: 8px;"><strong>22:30 - 01:15:</strong> Actuación (ZETAK).</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">20/06/2026 (Sábado) - SHOW DÍA 2</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>08:04 - 12:00:</strong> Carga/descarga Barras (Polait Events).</li>
+        <li style="margin-bottom: 8px;"><strong>10:00 - 12:00:</strong> Limpieza químicos (Indarlan, S.A.).</li>
+        <li style="margin-bottom: 8px;"><strong>20:00 - 22:00:</strong> Puertas (ZETAK).</li>
+        <li style="margin-bottom: 8px;"><strong>22:00 - 23:30:</strong> Actuación (ZETAK).</li>
+        <li style="margin-bottom: 8px;"><strong>00:40 - 02:00:</strong> Desmontaje antiavalanchas (Sensei Producciones).</li>
+        <li style="margin-bottom: 8px;"><strong>01:15 - 03:00:</strong> Desmontaje Plataforma variable (Pascualin Estructures, S.L.).</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">21/06/2026 (Domingo) - Desmontaje I</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>08:04 - 12:00:</strong> Carga/descarga Barras (Polait Events).</li>
+        <li style="margin-bottom: 8px;"><strong>10:00 - 14:00:</strong> Limpieza camerinos (San Mamés Stadium).</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">22/06/2026 (Lunes) - Desmontaje II</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>08:00 - 12:00:</strong> Recogida químicos (Indarlan, S.A.).</li>
+        <li style="margin-bottom: 8px;"><strong>08:04 - 12:00:</strong> Carga/descarga Barras (Polait Events).</li>
+        <li style="margin-bottom: 8px;"><strong>10:00 - 10:00:</strong> Salida Generadores (Pereto Power).</li>
+        <li style="margin-bottom: 8px;"><strong>10:30 - 22:00:</strong> Reamueblar camerinos (San Mamés Stadium).</li>
+        <li style="margin-bottom: 8px;"><strong>14:00 - 21:00:</strong> Desmontaje Escenario (StageTec Portugal).</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">23/06/2026 (Martes) - Salida</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>08:04 - 12:00:</strong> Carga/descarga Barras (Polait Events).</li>
+        <li style="margin-bottom: 8px;"><strong>18:00 - 20:00:</strong> Peritaje estadio salida (Globaim S.L.).</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">24/06/2026 (Miércoles) - Cierre Final</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>10:00 - 21:00:</strong> Retirada de protección de suelo / Remove flooring (Mojo Rental B.V.).</li>
+    </ul>
+</div>
+
         </div>
     
         <!-- TAB: ESCENARIO -->
@@ -974,57 +1064,138 @@
     
         <!-- TAB: ARTISTA -->
         <div id="tab-artista" class="tab-panel">
-            
-        <div class="card">
-            <div class="card-title">🎤 ZETAK - Folk Electrónica Vasco</div>
-            <p><strong>ZETAK</strong> es el aclamado proyecto musical liderado por <strong>Pello Reparaz</strong> (Arbizu, Navarra) que fusiona la música tradicional vasca en euskera con electrónica contemporánea, pop y ritmos urbanos de vanguardia. La puesta en escena para San Mamés ("Mitoaroa III") representa el montaje escénico más grande de su trayectoria.</p>
-            <p style="margin-top: 15px;"><strong style="color: var(--accent-blue);">Contacto Artístico:</strong> Patricia Lorenzo García (lorenzogarciapatricia@gmail.com | 665728312)</p>
-        </div>
-        <div class="card">
-            <div class="card-title">⏱️ Agenda de Conciertos y Show Days</div>
-            <div class="table-responsive">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Fecha</th>
-                            <th>Horario Inicio</th>
-                            <th>Horario Fin</th>
-                            <th>Actividad / Detalle</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr><td>16/06/2026</td><td>21:10</td><td>05:00</td><td>Programación de iluminación del show en el escenario del estadio.</td></tr>
-                        <tr><td>17/06/2026</td><td>10:00</td><td>18:00</td><td>Ensayos técnicos y pruebas acústicas de la banda.</td></tr>
-                        <tr><td>18/06/2026</td><td>15:00</td><td>00:00</td><td>Ensayo general con escenografía, pirotecnia y drones (horario nocturno).</td></tr>
-                        <tr><td><strong>19/06/2026</strong></td><td>20:30</td><td>22:30</td><td>Apertura de Puertas (Show 1)</td></tr>
-                        <tr><td><strong>19/06/2026</strong></td><td><strong>22:30</strong></td><td><strong>01:15</strong></td><td><strong>ACTUACIÓN DE ZETAK (Concierto Día 1)</strong></td></tr>
-                        <tr><td><strong>20/06/2026</strong></td><td>20:00</td><td>22:00</td><td>Apertura de Puertas (Show 2 - Show Principal)</td></tr>
-                        <tr><td><strong>20/06/2026</strong></td><td><strong>22:00</strong></td><td><strong>23:30</strong></td><td><strong>ACTUACIÓN DE ZETAK (Concierto Día 2 - Cierre)</strong></td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    
+            <div class="card">
+    <div class="card-title">10/06/2026 (Miércoles) - Pre-montaje Artístico</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>18:00 - 20:00:</strong> Montaje tubo árbol (Sukubo). Maquinaria: Tijera 8m.</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">15/06/2026 (Lunes) - Carga y Montaje Artístico</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>08:00 - 14:00:</strong> Montaje suelo PVC provocador + pasarela REA (Remosa). Maquinaria: Toro para descarga.</li>
+        <li style="margin-bottom: 8px;"><strong>09:00 - 21:00:</strong> Retén de producción - 2 pax (Producción Zetak).</li>
+        <li style="margin-bottom: 8px;"><strong>09:00 - 21:00:</strong> Montaje fibras y RF (Técnico RF banda).</li>
+        <li style="margin-bottom: 8px;"><strong>09:00 - 21:00:</strong> Montaje RF (Streaming on set). Maquinaria: Toro descarga.</li>
+        <li style="margin-bottom: 8px;"><strong>10:00 - 21:00:</strong> Montaje lásers (Cittadini). Personal: 2 pax 10:00-12:00. Maquinaria: Toro descarga.</li>
+        <li style="margin-bottom: 8px;"><strong>12:00 - 16:00:</strong> Montaje pasarela variable (Arte). Personal: 2 pax.</li>
+        <li style="margin-bottom: 8px;"><strong>15:00 - 21:00:</strong> Supervisión montaje (Técnicos sonido banda).</li>
+        <li style="margin-bottom: 8px;"><strong>16:00 - 21:00:</strong> Marcaje suelo escenario y si se puede tirar PVC (Remosa).</li>
+        <li style="margin-bottom: 8px;"><strong>16:00 - 21:00:</strong> Supervisión montaje y testeo de equipos (Operador luces banda).</li>
+        <li style="margin-bottom: 8px;"><strong>16:00 - 21:00:</strong> Montaje cámaras + fibra + controles (Toboggan). Personal: 4 hands 16:00-16:30.</li>
+        <li style="margin-bottom: 8px;"><strong>16:00 - 19:00:</strong> Montaje servidores (Eyesberg). Personal: 2 hands 16:30-17:00.</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">16/06/2026 (Martes) - Integración y Estructura</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>09:00 - 21:00:</strong> Montaje llamas (Sukubo). Personal: 2 pax retén.</li>
+        <li style="margin-bottom: 8px;"><strong>09:00 - 21:00:</strong> Retén de producción (Producción Zetak). Personal: 2 pax. Maquinaria: Toro descarga.</li>
+        <li style="margin-bottom: 8px;"><strong>10:00 - 12:00:</strong> Layher grada (Zero). Personal: 2 pax. Maquinaria: Toro descarga.</li>
+        <li style="margin-bottom: 8px;"><strong>11:00 - 14:00:</strong> Escaleras grada (Call&Play). Personal: 2 pax. Maquinaria: Toro descarga.</li>
+        <li style="margin-bottom: 8px;"><strong>15:00 - 18:00:</strong> Forrar laterales grada (Arte).</li>
+        <li style="margin-bottom: 8px;"><strong>12:00 - 15:00:</strong> Posibilidad dos pax suyos vengan antes (Remosa).</li>
+        <li style="margin-bottom: 8px;"><strong>15:00 - 19:00:</strong> PVC escenario + forrar escaleras + grada + tarimas (Remosa).</li>
+        <li style="margin-bottom: 8px;"><strong>09:00 - 17:00:</strong> Continua montaje (Toboggan).</li>
+        <li style="margin-bottom: 8px;"><strong>18:00 - 19:00:</strong> Montaje backline (Backline Zetak). Personal: 2 pax 17:30-19:30.</li>
+        <li style="margin-bottom: 8px;"><strong>16:00 - 21:00:</strong> Chequeo líneas (Fluge).</li>
+        <li style="margin-bottom: 8px;"><strong>16:00 - 21:00:</strong> Montaje controles (REA).</li>
+        <li style="margin-bottom: 8px;"><strong>21:00 - 23:00:</strong> Colocación alto horno en escenario (Arte). Maquinaria: Manitou.</li>
+        <li style="margin-bottom: 8px;"><strong>21:00 - 06:00:</strong> Pruebas iluminación + pantallas + efectos + cámaras (Show banda).</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">17/06/2026 (Miércoles) - Ajustes y Ensayo I</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>10:00 - 14:00:</strong> Montaje lásers variable/ escenario/ provocador (Cittadini). Personal: 2 pax retén.</li>
+        <li style="margin-bottom: 8px;"><strong>15:00 - 24:00:</strong> Retén de producción (Producción Zetak). Personal: 2 pax.</li>
+        <li style="margin-bottom: 8px;"><strong>15:00 - 04:00:</strong> Ensayos generales.</li>
+        <li style="margin-bottom: 8px;"><strong>24:00 - 24:30:</strong> Prueba láser vertical.</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">18/06/2026 (Jueves) - Ensayo II</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>15:00 - 24:00:</strong> Retén de producción (Producción Zetak). Personal: 2 pax.</li>
+        <li style="margin-bottom: 8px;"><strong>15:00 - 04:00:</strong> Ensayos generales.</li>
+        <li style="margin-bottom: 8px;"><strong>24:00 - 24:30:</strong> Prueba láser vertical.</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">19/06/2026 (Viernes) - SHOW DÍA 1</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>12:00 - 19:00:</strong> Chequeo equipos + pruebas.</li>
+        <li style="margin-bottom: 8px;"><strong>17:00 - 01:00:</strong> Retén de producción (Producción Zetak). Personal: 2 pax.</li>
+        <li style="margin-bottom: 8px;"><strong>20:30 - 22:30:</strong> Puertas.</li>
+        <li style="margin-bottom: 8px;"><strong>22:30 - 01:00:</strong> Show.</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">20/06/2026 (Sábado) - SHOW DÍA 2</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>12:00 - 19:00:</strong> Chequeo equipos + pruebas.</li>
+        <li style="margin-bottom: 8px;"><strong>17:00 - 24:00:</strong> Retén de producción (Producción Zetak). Personal: 2 pax.</li>
+        <li style="margin-bottom: 8px;"><strong>20:30 - 22:30:</strong> Puertas.</li>
+        <li style="margin-bottom: 8px;"><strong>22:30 - 01:00:</strong> Show.</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">21/06/2026 (Domingo) - Desmontaje Artístico</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>24:00 - 06:00:</strong> Retén desmontaje (Zetak producción). Personal: 2 pax.</li>
+        <li style="margin-bottom: 8px;"><strong>24:30 - 02:00:</strong> Desmontaje escaleras grada (Call & Play). Personal: 2 pax. Maquinaria: 1 toro carga.</li>
+        <li style="margin-bottom: 8px;"><strong>24:30 - 01:30:</strong> Desmontaje backline (Backline Zetak). Personal: 2 pax.</li>
+        <li style="margin-bottom: 8px;"><strong>24:30 - 01:30:</strong> Desmontaje lásers variable (Cittadini).</li>
+        <li style="margin-bottom: 8px;"><strong>01:30 - 03:00:</strong> Desmontaje pasarela variable (Arte).</li>
+        <li style="margin-bottom: 8px;"><strong>01:30 - 02:00:</strong> Bajar el alto horno (Arte).</li>
+        <li style="margin-bottom: 8px;"><strong>01:30 - 03:30:</strong> Desmontaje layher grada (Zero). Personal: 2 pax. Maquinaria: 1 toro carga.</li>
+        <li style="margin-bottom: 8px;"><strong>02:00 - 04:00:</strong> Desmontaje láser 600w (Cittadini). Personal: 2 pax. Maquinaria: 1 toro carga.</li>
+        <li style="margin-bottom: 8px;"><strong>24:30 - 02:00:</strong> Desmontaje REA (REA).</li>
+        <li style="margin-bottom: 8px;"><strong>01:00 - 08:00:</strong> Desmontaje cámaras (Toboggan). Personal: 2 pax para cargas.</li>
+        <li style="margin-bottom: 8px;"><strong>01:00 - 04:00:</strong> Desmontaje RF (Streaming on set).</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">22/06/2026 (Lunes) - Finalización</div>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>TBC:</strong> Finalización desmontaje y cargas.</li>
+    </ul>
+</div>
+
         </div>
     
         <!-- TAB: PARKING -->
         <div id="tab-parking" class="tab-panel">
             <div class="card">
-    <p style="font-size: 14px; line-height: 1.6; margin-bottom: 12px; color: var(--text-main);">Solo seran admitidos en el parking interior los vehículos con su autorización para el día del montaje y desmontaje.</p>
+    <p style="font-size: 14px; line-height: 1.6; margin-bottom: 12px; color: var(--text-main);">Solo seran admitidos en el ijterior del estadio los vehículos con su autorización para el día del montaje y desmontaje. estos no podrsn ser aparcados en el tunel o la zona de trabajo y deberan ir a pista. se debera dejar en zona visible el nombre, empresa y telefono del conductor</p>
 </div>
-    <p style="font-size: 14px; line-height: 1.6; margin-bottom: 12px; color: var(--text-main);">Los vehículos personales de equipo, producción, artistas etc, deberán estacionar en el parking habilitado para ellos previa confirmacion por el departamento de logística y operaciones.</p>
+    <p style="font-size: 14px; line-height: 1.6; margin-bottom: 12px; color: var(--text-main);">Los vehículos personales de equipo, producción, artistas etc, deberán estacionar en el parking habilitado para ellos previa confirmacion por el departamento de logística y operaciones. para ello se debera escribir un email a sanmamesaccesos@gmail.com para solicitar la acreditacion con minimo 24hrs de antelacion al acceso.</p>
 </div>
 
         </div>
     
         <!-- TAB: HOSPITALIDAD -->
         <div id="tab-hospitalidad" class="tab-panel">
-            
             <div class="card">
-                <div class="card-title">📁 Información de la Carpeta: Hospitalidad</div>
-                <p>Sección dinámicamente detectada en el espacio de trabajo local de San Mamés. Registra la documentación y planos específicos correspondientes.</p>
-            </div>
-        
+    <div class="card-title">Responsable de Hospitalidad</div>
+    <p style="font-size: 14px; line-height: 1.6; margin-bottom: 12px; color: var(--text-main);">El encargado de liderar la zona de hospitalidad y coordinar los servicios asociados es <strong>Xavi Payán</strong>.</p>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;">Para cualquier consulta sobre hospitalidad, puedes localizar su contacto en la sección de <a onclick="switchTab('contactos')" style="color: var(--accent-blue); cursor: pointer; text-decoration: underline; font-weight: 600;">Contactos y Staff</a> (puedes acceder directamente desde el menú).</li>
+        <li style="margin-bottom: 8px;"><strong>Consigna y Pertenencias:</strong> Al llegar al estadio, deberás preguntar por él para que, en caso de que tengas asignado un espacio para dejar tus pertenencias, te indique su ubicación exacta.</li>
+    </ul>
+</div>
+<div class="card">
+    <div class="card-title">Catering y Comedor</div>
+    <p style="font-size: 14px; line-height: 1.6; margin-bottom: 12px; color: var(--text-main);">El servicio de catering para el staff y producción se encuentra centralizado en el estadio:</p>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 14px; color: var(--text-main); margin-bottom: 10px;">
+        <li style="margin-bottom: 8px;"><strong>Ubicación:</strong> Primer anillo (Planta 1), situado justo detrás del escenario.</li>
+        <li style="margin-bottom: 8px;"><strong>Calendario:</strong> El servicio estará plenamente habilitado a partir del <strong>día 16 de junio</strong>.</li>
+        <li style="margin-bottom: 8px;"><strong>Horarios de Comida:</strong> De 14:00 a 16:00 (2:00 PM - 4:00 PM).</li>
+        <li style="margin-bottom: 8px;"><strong>Horarios de Cena:</strong> De 19:30 a 22:30 (7:30 PM - 10:30 PM).</li>
+        <li style="margin-bottom: 8px;"><strong>Acceso:</strong> Es imprescindible presentar un <strong>ticket físico</strong> entregado por tu coordinador directo para acceder al comedor (sujeto a aprobación previa).</li>
+    </ul>
+</div>
+
         </div>
     
         <!-- TAB: LOGISTICA -->
