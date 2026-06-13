@@ -509,19 +509,19 @@ const hardcodedDetails = {
                 <ul style="list-style: none; padding-left: 0; font-size: 14px; color: var(--text-main);">
                     <li style="margin-bottom: 12px;">
                         <strong>Acceso Personal (Vial):</strong><br>
-                        <a href="./Planos/PDFs/ZETAK%20Implantacion%20FINAL%202105-Implantacion%20(Acceso%20personal).pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
+                        <a href="./PLANOS/PDFs/ZETAK%20Implantacion%20FINAL%202105-Implantacion%20(Acceso%20personal).pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
                     </li>
                     <li style="margin-bottom: 12px;">
                         <strong>Accesos Generales:</strong><br>
-                        <a href="./Planos/PDFs/ZETAK%20Implantacion%20FINAL%202105-Implantacion%20(Accesos).pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
+                        <a href="./PLANOS/PDFs/ZETAK%20Implantacion%20FINAL%202105-Implantacion%20(Accesos).pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
                     </li>
                     <li style="margin-bottom: 12px;">
                         <strong>Implantación Exterior:</strong><br>
-                        <a href="./Planos/PDFs/ZETAK%20Implantacion%20FINAL%202105-Implantacion%20Exterior.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
+                        <a href="./PLANOS/PDFs/ZETAK%20Implantacion%20FINAL%202105-Implantacion%20Exterior.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
                     </li>
                     <li style="margin-bottom: 12px;">
                         <strong>Flujos de Público:</strong><br>
-                        <a href="./Planos/PDFs/ZETAK%20Implantacion%20FINAL%202105-Flujos.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
+                        <a href="./PLANOS/PDFs/ZETAK%20Implantacion%20FINAL%202105-Flujos.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
                     </li>
                 </ul>
             </div>
@@ -530,19 +530,19 @@ const hardcodedDetails = {
                 <ul style="list-style: none; padding-left: 0; font-size: 14px; color: var(--text-main);">
                     <li style="margin-bottom: 12px;">
                         <strong>Plano Stage (ZETAK):</strong><br>
-                        <a href="./Planos/PDFs/ZETAK%20Implantacion%20FINAL%202105-Stage.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
+                        <a href="./PLANOS/PDFs/ZETAK%20Implantacion%20FINAL%202105-Stage.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
                     </li>
                     <li style="margin-bottom: 12px;">
                         <strong>Instalación Eléctrica:</strong><br>
-                        <a href="./Planos/PDFs/ZETAK%20Implantacion%20FINAL%202105-Electricidad.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
+                        <a href="./PLANOS/PDFs/ZETAK%20Implantacion%20FINAL%202105-Electricidad.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
                     </li>
                     <li style="margin-bottom: 12px;">
                         <strong>Cámaras y Realización:</strong><br>
-                        <a href="./Planos/PDFs/ZETAK%20Implantacion%20FINAL%202105-Camaras.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
+                        <a href="./PLANOS/PDFs/ZETAK%20Implantacion%20FINAL%202105-Camaras.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
                     </li>
                     <li style="margin-bottom: 12px;">
                         <strong>Efectos Especiales (FX):</strong><br>
-                        <a href="./Planos/PDFs/ZETAK%20Implantacion%20FINAL%202105-FX.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
+                        <a href="./PLANOS/PDFs/ZETAK%20Implantacion%20FINAL%202105-FX.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
                     </li>
                 </ul>
             </div>
@@ -551,19 +551,19 @@ const hardcodedDetails = {
                 <ul style="list-style: none; padding-left: 0; font-size: 14px; color: var(--text-main);">
                     <li style="margin-bottom: 12px;">
                         <strong>Vallados y Seguridad:</strong><br>
-                        <a href="./Planos/PDFs/ZETAK%20Implantacion%20FINAL%202105-Vallados.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
+                        <a href="./PLANOS/PDFs/ZETAK%20Implantacion%20FINAL%202105-Vallados.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
                     </li>
                     <li style="margin-bottom: 12px;">
                         <strong>Sitting Plan (Asientos):</strong><br>
-                        <a href="./Planos/PDFs/ZETAK%20Implantacion%20FINAL%202105-Asientos.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
+                        <a href="./PLANOS/PDFs/ZETAK%20Implantacion%20FINAL%202105-Asientos.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
                     </li>
                     <li style="margin-bottom: 12px;">
                         <strong>Merchandising:</strong><br>
-                        <a href="./Planos/PDFs/ZETAK%20Implantacion%20FINAL%202105-MERCH.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
+                        <a href="./PLANOS/PDFs/ZETAK%20Implantacion%20FINAL%202105-MERCH.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
                     </li>
                     <li style="margin-bottom: 12px;">
                         <strong>Evento EHU (Stage):</strong><br>
-                        <a href="./Planos/PDFs/EHU%20Implantacion%20FINAL%202105-Stage.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
+                        <a href="./PLANOS/PDFs/EHU%20Implantacion%20FINAL%202105-Stage.pdf" target="_blank" class="badge blue" style="text-decoration: none; margin-top:5px; display:inline-block;">Ver PDF</a>
                     </li>
                 </ul>
             </div>
@@ -623,12 +623,12 @@ panelsHtml += `
                     <div style="margin-top: 20px;">
                         <p style="font-size: 13px; color: var(--accent-blue); margin-bottom: 10px; font-weight: 600;">🗺️ Plano de Accesos y Zonas Prohibidas:</p>
                         <div style="width: 100%; aspect-ratio: 1.414; position: relative; overflow: hidden; border-radius: 8px; border: 1px solid var(--border-light); background: #2a2a2e;">
-                            <iframe src="Planos/PDFs/ZETAK%20Implantacion%20FINAL%202105-Implantacion%20(Acceso%20personal).pdf#toolbar=0&navpanes=0&scrollbar=0" 
+                            <iframe src="PLANOS/PDFs/ZETAK%20Implantacion%20FINAL%202105-Implantacion%20(Acceso%20personal).pdf#toolbar=0&navpanes=0&scrollbar=0" 
                                     style="width: 100%; height: 100%; border: none;">
                             </iframe>
                         </div>
                         <div style="margin-top: 8px; display: flex; justify-content: flex-end;">
-                            <a href="Planos/PDFs/ZETAK%20Implantacion%20FINAL%202105-Implantacion%20(Acceso%20personal).pdf" target="_blank" class="badge blue" style="text-decoration: none; font-size: 11px;">🔍 Ampliar plano de accesos</a>
+                            <a href="PLANOS/PDFs/ZETAK%20Implantacion%20FINAL%202105-Implantacion%20(Acceso%20personal).pdf" target="_blank" class="badge blue" style="text-decoration: none; font-size: 11px;">🔍 Ampliar plano de accesos</a>
                         </div>
                     </div>
                 </div>
@@ -675,24 +675,25 @@ folders.forEach(folder => {
         // Ignorar errores al acceder a la carpeta
     }
 
-    let staticDetails = '';
-    if (mdFilePath && fs.existsSync(mdFilePath)) {
-        console.log(`- Detectado archivo Markdown para ${folder}: ${path.basename(mdFilePath)}. Renderizando...`);
-        const mdContent = fs.readFileSync(mdFilePath, 'utf8');
-        staticDetails = parseMarkdownToHtml(mdContent);
-    } else {
-        staticDetails = hardcodedDetails[folder] || `
+    let staticDetails = hardcodedDetails[folder] || `
             <div class="card">
                 <div class="card-title">📁 Información de la Carpeta: ${folder}</div>
                 <p>Sección dinámicamente detectada en el espacio de trabajo local de San Mamés. Registra la documentación y planos específicos correspondientes.</p>
             </div>
         `;
+
+    let mdDetails = '';
+    if (mdFilePath && fs.existsSync(mdFilePath)) {
+        console.log(`- Detectado archivo Markdown para ${folder}: ${path.basename(mdFilePath)}. Renderizando...`);
+        const mdContent = fs.readFileSync(mdFilePath, 'utf8');
+        mdDetails = parseMarkdownToHtml(mdContent);
     }
 
     panelsHtml += `
         <!-- TAB: ${folder.toUpperCase()} -->
         <div id="tab-${folder.toLowerCase()}" class="tab-panel">
             ${staticDetails}
+            ${mdDetails}
         </div>
     `;
 });
