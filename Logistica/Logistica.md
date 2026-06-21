@@ -60,8 +60,3 @@ At the band's request, additional logistics for guests are required on the night
   * **23:30 approx (End of show):** Pick-up at Auditorio Miguel Ríos > Transfer to *The Madrid EDITION*.
   * **03:00 approx:** Pick-up at *The Madrid EDITION* > Final transfer to *Hyatt Regency Hesperia* hotel.
 
----
-### 📥 Reference Documents
-* [Download Logistics Email Thread (PDF)](./Logistica/Inbox%20-%20Wero%20Edge%20%5BEXTERNAL%5D%20-%20Outlook.pdf)
-* [Download Advance Team Thread (PDF)](./Logistica/Inbox%20-%20Wero%20Edge%20%5BEXTERNAL%5D%20-%20Outlook%20advance.pdf)
-* [Download Afterparty Thread (PDF)](./Logistica/Inbox%20-%20Wero%20Edge%20%5BEXTERNAL%5D%20-%20Outlook%20afterparty.pdf)
