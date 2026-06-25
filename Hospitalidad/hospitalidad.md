@@ -1,5 +1,7 @@
 # Hospitality & Dressing Rooms
 
+**Contact:** Xavi Payan - produccion@xavipayan.com
+
 Summary of catering, dressing room allocations, and rider adjustments based on recent communications.
 
 ## Dressing Rooms & Facilities
