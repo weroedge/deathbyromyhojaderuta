@@ -148,7 +148,14 @@ function upsertEmbeddedMarkdown(html, sectionId, rawMd) {
 function generateProduccionContent() {
   const productionRootDir = path.join(baseDir, "Production");
   if (!fs.existsSync(productionRootDir)) return "";
-  const subfolders = fs.readdirSync(productionRootDir).filter(f => fs.lstatSync(path.join(productionRootDir, f)).isDirectory());
+  let subfolders = fs.readdirSync(productionRootDir).filter(f => fs.lstatSync(path.join(productionRootDir, f)).isDirectory());
+  
+  subfolders.sort((a, b) => {
+    if (a.toLowerCase() === 'backline') return -1;
+    if (b.toLowerCase() === 'backline') return 1;
+    return a.localeCompare(b);
+  });
+
   let combinedHtml = "";
   for (const folder of subfolders) {
     const folderPath = path.join(productionRootDir, folder);
