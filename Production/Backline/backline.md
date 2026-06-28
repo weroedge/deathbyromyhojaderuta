@@ -1,35 +1,37 @@
-# Backline P.O.D.
+# Backline Death by Romy
 
 List of confirmed equipment (marked as OK) by Call&Play:
 
 ## Drums & Hardware
 
-- DWCOLLECTOR'S BLACK VELVET BD 22"x18" (22x18 Bass Drum)
-- DW COLLECTOR'S BLACK VELVET FT 18"x16" (18x16 Floor)
-- DW COLLECTOR'S BLACK VELVET FT 16"x14" (16x14 Floor Tom)
-- DW COLLECTOR'S BLACK VELVET RT 12"x9" (12x9 Rack Tom)
-- DW COLLECTOR'S BLACK VELVET RT 10"x8" (10x8 Rack Tom)
-- 1 DW Double Tom Stand
-- DW 5002 DOUBLE KICK PEDAL (BDP) (DW 9000 Double Pedal)
-- DW 9500 HH STAND WITH 2 LEGS (DW 9000 2 Leg Hi-Hat Stand)
-- DW 9700 BOOM/STRAIGHT CYMBAL STAND (5 x DW 9000 Straight/Boom Cymbal Stand)
-- DW 9300 SD STAND (2x DW 9000 Snare Stand)
-
-## Guitar / Bass / Stage
-
-- CABLE JACK-JACK 6m (20') (6x 25' instrument cables)
-- AMPEG SVT-4PRO (Ampeg SVT Pro 4)
-- AMPEG SVT-810E (2x Ampeg 8x10 Cabinets)
-- CABLE JACK-JACK 6m (20') (4x 25' instrument cables)
-- VENTILADOR / FAN 20" INDUSTRIAL NEGRO/BLACK (4x Floor Fans)
+- PEARL MPL BD 22"x18" BLACK
+- PEARL MPL RT 12"x8" BLACK
+- PEARL MPL FT 16"x16" BLACK
+- PEARL SENSITONE PREMIUM SD 14"x6,5" PHOSPHOR BRONZE
+- YAMAHA FLOOR STAND FOR TOM TH (TRIPOD)
+- PEARL TH-1000i TOM HOLDER, UNI LOCK
+- PEARL P-2002C ELIMINATOR DOUBLE KICK PEDAL (BDP)
+- YAMAHA HS1200T HH STAND 2-LEG
+- 4x YAMAHA CS 800/900 CYMBAL STAND
+- YAMAHA SS950 SD STAND
+- YAMAHA DS840 ROUND SEAT (DS)
+- DRUM CARPET 2mx2m
+- ZILDJIAN K DARK THIN CRASH 18"
+- ZILDJIAN K CUSTOM DARK CRASH 19"
+- ZILDJIAN ORIENTAL CHINA TRASH 16"
+- ZILDJIAN K HH 14" TOP & BOTTOM
+- ZILDJIAN K CUSTOM DRY COMPLEX RIDE 22"
 
 ## Risers / Platforms
 
-- APQ TARIMA/RISER 2m x 1m (3x2m at 40cm on wheels for P.O.D. drum kit)
-- APQ LEG 20 cm
-- APQ RISER CONNECTOR
-- LOW WHEEL WITH BRAKE (12.5 cm) / 8-LEG DOUBLE RECEPTACLE APQ/FANTEK (Riser Accessories)
+- 3x2m at 40cm on wheels for Death by Romy
+- 3x APQ RISER 2m x 1m
+- 12x APQ LEG 20 cm
+- 4x APQ RISER CONNECTOR
+- 8x LOW WHEEL WITH BRAKE (12.5 cm)
+- 4x 8-LEG DOUBLE RECEPTACLE APQ/FANTEK
+- 4x 8-LEG SINGLE RECEPTACLE APQ/FANTEK
 
 ## Documents & Maps
 
-_Please review the original Call&Play PDF attached below to see all details and proposed alternatives._
+_Please review the original Call&Play PDFs attached below to see all details and proposed alternatives._
